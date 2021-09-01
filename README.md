@@ -13,3 +13,4 @@ Project was created with:
 * JavaScript
 
 ## Live :star2:
+https://goldipl.github.io/LotteryNumber/
