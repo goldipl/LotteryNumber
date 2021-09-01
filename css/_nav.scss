@@ -1,0 +1,10 @@
+@import 'mixins';
+.nav {
+    height: 10vh;
+    @include center;
+    p {
+        font-size: 24px;
+        text-decoration: underline;
+        line-height: 10vh;
+    }
+}

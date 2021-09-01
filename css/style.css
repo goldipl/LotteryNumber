@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+.lotterySection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 400px;
+  width: 300px;
+  border: 4px dashed #1fc01f;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  padding: 16px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border: 2px solid #1fc01f;
+  border-radius: 16px;
+  padding: 20px 50px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 0 10px 0 #1fc01f inset, 0 0 20px 2px #1fc01f;
+          box-shadow: 0 0 10px 0 #1fc01f inset, 0 0 20px 2px #1fc01f;
+}
+
+.lotteryText {
+  margin: 40px;
+  font-size: 22px;
+  text-align: center;
+  height: 60px;
+}
+
+.lotteryNumber {
+  display: block;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.nav {
+  height: 10vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav p {
+  font-size: 24px;
+  text-decoration: underline;
+  line-height: 10vh;
+}
+
+.footer {
+  height: 15vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+  font-style: italic;
+}
+/*# sourceMappingURL=style.css.map */

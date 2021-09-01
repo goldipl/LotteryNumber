@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'mixins';
+body {
+    font-family: $font-family01;
+    @include reset-list;
+}
+
+.lotterySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    border: 4px dashed $color02;
+    @include center;
+}
