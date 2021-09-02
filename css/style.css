@@ -64,6 +64,8 @@ h1 {
   text-align: center;
   color: #FFFFFF;
   background-color: #000000;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 .nav {
