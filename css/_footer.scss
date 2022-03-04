@@ -1,9 +1,0 @@
-@import 'mixins';
-.footer {
-    height: 15vh;
-    @include center;
-    p {
-        font-size: 14px;
-        font-style: italic;
-    }
-}
